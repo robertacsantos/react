@@ -79,6 +79,8 @@ target 'hunt2' do
 
   pod 'RNScreens', :path => '../node_modules/react-native-screens'
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'hunt2Tests' do
     inherit! :complete
     # Pods for testing
